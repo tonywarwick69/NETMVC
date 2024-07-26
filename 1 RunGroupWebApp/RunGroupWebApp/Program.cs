@@ -10,7 +10,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+//Type "dotnet run seeddata" in PM console to insert data into DB
 var app = builder.Build();
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
 {
