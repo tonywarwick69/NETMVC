@@ -1,5 +1,5 @@
 ﻿@using RunGroupWebApp.Data.Enum
-@model Club
+@model Race
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -22,12 +22,12 @@
         <span asp-validation-for="Image" class="text-danger"></span>
     </div>
     <div class="mb-3">
-        <label asp-for="ClubCategory" class="form-label">Category</label>
-        <select asp-for="ClubCategory" asp-items="@Html.GetEnumSelectList<ClubCategory>()">
+        <label asp-for="RaceCategory" class="form-label">Category</label>
+        <select asp-for="RaceCategory" asp-items="@Html.GetEnumSelectList<RaceCategory>()">
             <option>--Select--</option>
         </select>
- 
-        <span asp-validation-for="ClubCategory" class="text-danger"></span>
+
+        <span asp-validation-for="RaceCategory" class="text-danger"></span>
     </div>
     <div class="mb-3">
         <label asp-for="Address.Street" class="form-label">Street</label>
@@ -44,6 +44,6 @@
         <input asp-for="Address.State" class="form-control" placeholder="State">
         <span asp-validation-for="Address.State" class="text-danger"></span>
     </div>
- 
+
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>

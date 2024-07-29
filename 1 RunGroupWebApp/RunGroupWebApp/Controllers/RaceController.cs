@@ -29,5 +29,22 @@ namespace RunGroupWebApp.Controllers
             Race race = await _raceRepository.GetByIdAsync(id);
             return View(race);
         }
+        //Create page
+        public IActionResult Create()
+        {
+            //asp-for = label for and id of something
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Race race)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(race);
+            }
+            _raceRepository.Add(race);
+            return RedirectToAction("Index");
+        }
     }
 }

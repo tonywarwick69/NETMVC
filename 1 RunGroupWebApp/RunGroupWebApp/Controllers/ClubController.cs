@@ -35,9 +35,21 @@ namespace RunGroupWebApp.Controllers
         //Create page
         public IActionResult Create()
         {
+            //asp-for = label for and id of something
             return View();  
         }
-
-
+        [HttpPost]
+        public async Task<IActionResult> Create(Club club)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(club);
+            }
+            _clubRepository.Add(club);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Edit() { 
+            return View();
+        }
     }
 }
