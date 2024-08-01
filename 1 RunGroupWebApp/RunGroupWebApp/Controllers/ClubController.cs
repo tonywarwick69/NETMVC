@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RunGroupWebApp.Data;
+using RunGroupWebApp.DTO;
 using RunGroupWebApp.Interfaces;
 using RunGroupWebApp.Models;
 using RunGroupWebApp.Repository;
+using System.IO;
 
 namespace RunGroupWebApp.Controllers
 {
@@ -11,10 +13,12 @@ namespace RunGroupWebApp.Controllers
     {
         //public readonly ApplicationDBContext _context;
         public readonly IClubRepository _clubRepository;
-        public ClubController( IClubRepository clubRepository)
+        public readonly IPhotoService _photoService;
+        public ClubController( IClubRepository clubRepository, IPhotoService photoService)
         {
             //_context = context;
             _clubRepository = clubRepository;
+            _photoService = photoService;
         }
         public async Task<IActionResult> Index()
         {
@@ -39,14 +43,35 @@ namespace RunGroupWebApp.Controllers
             return View();  
         }
         [HttpPost]
-        public async Task<IActionResult> Create(Club club)
+        public async Task<IActionResult> Create(CreateClubDTO club)
         {
-            if (!ModelState.IsValid)
+            //if (!ModelState.IsValid)
+            //{
+            //    return View(club);
+            //}
+            if (ModelState.IsValid)
             {
-                return View(club);
+                var result = await _photoService.AddPhotoAsync(club.Image);
+                var savedClub = new Club
+                {
+                    Title = club.Title,
+                    Description = club.Description,
+                    Address = new Address
+                    {
+                        Street = club.Address.Street,
+                        City = club.Address.City,
+                        State = club.Address.State,
+                    },                    
+                    Image = result.Url.ToString(),
+
+                };
+                _clubRepository.Add(savedClub);
+                return RedirectToAction("Index");
+            } else
+            {
+                ModelState.AddModelError("", "Photo upload failed");
             }
-            _clubRepository.Add(club);
-            return RedirectToAction("Index");
+            return View(club);
         }
         public IActionResult Edit() { 
             return View();

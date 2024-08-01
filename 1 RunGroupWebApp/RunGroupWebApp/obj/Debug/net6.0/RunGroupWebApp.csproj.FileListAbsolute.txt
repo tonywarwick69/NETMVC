@@ -130,3 +130,12 @@ E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\RunGroup.0B0739
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.dll
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\refint\RunGroupWebApp.dll
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.pdb
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\RunGroupWebApp.deps.json
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\RunGroupWebApp.runtimeconfig.json
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\RunGroupWebApp.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\RunGroupWebApp.pdb
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\CloudinaryDotNet.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\dotenv.net.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.genruntimeconfig.cache
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\ref\RunGroupWebApp.dll

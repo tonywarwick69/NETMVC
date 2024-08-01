@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("388d9883-ef9d-450f-8886-fc351ed5b96f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RunGroupWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e1fb02983b115eb962f43bae87b80f096f1a972")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a019e4a0c13e9f22f6b3a2e8e8273ee6a656268b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RunGroupWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RunGroupWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
