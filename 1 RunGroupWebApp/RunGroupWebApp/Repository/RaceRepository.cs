@@ -17,9 +17,9 @@ namespace RunGroupWebApp.Repository
             return Save();
         }
 
-        public bool Delete(int id)
+        public bool Delete(Race race)
         {
-            _context.Remove(id);
+            _context.Remove(race);
             return Save();  
         }
 

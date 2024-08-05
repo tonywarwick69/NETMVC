@@ -31,8 +31,11 @@
                                 <div class="btn-group">
                                     <a type="btn btn-success" asp-controller="club" asp-action="Detail" 
                                     asp-route-id="@item.Id"  class="btn btn-sm btn-outline-secondary" >View</a>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a type="btn btn-success" asp-controller="club" asp-action="Edit"
+                                       asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">Edit</a>
+                                    
                                 </div>
+                                <a asp-type="button" class="fa fa-window-close" style="color: #e22518;" asp-controller="club" asp-action="Delete" asp-route-id="@item.Id">DELETE</a>
                                 <small class="text-muted">@item.ClubCategory</small>
                             </div>
                         </div>

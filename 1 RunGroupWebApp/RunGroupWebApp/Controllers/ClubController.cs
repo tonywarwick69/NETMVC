@@ -73,8 +73,41 @@ namespace RunGroupWebApp.Controllers
             }
             return View(club);
         }
-        public IActionResult Edit() { 
-            return View();
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var clubDetails = await _clubRepository.GetByIdAsync(id);
+            if (clubDetails == null) throw new Exception("Club " + id + " not found.");
+            return View(clubDetails);
+        }
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteClub(int id) {
+            var foundClub = await _clubRepository.GetByIdAsync(id);
+            if (foundClub != null)
+            {
+                _clubRepository.Delete(foundClub);
+                return RedirectToAction("Index");
+            } else
+            {
+                throw new Exception("Club " + id + " not found.");
+            }
+            
+        }
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var club = await _clubRepository.GetByIdAsync(id);
+            if(club == null) throw new Exception("Club " + id + " not found.");
+            var savedClub = new EditClubDTO { 
+                Title = club.Title,
+                Description = club.Description,
+                AddressId= club.AddressId,
+                Address = club.Address,
+                ImageURL = club.Image,
+                ClubCategory = club.ClubCategory,
+
+            };
+            return View(savedClub);
         }
     }
 }

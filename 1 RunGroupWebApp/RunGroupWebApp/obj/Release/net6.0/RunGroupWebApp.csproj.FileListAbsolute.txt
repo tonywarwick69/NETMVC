@@ -67,3 +67,6 @@ E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Release\net6.0\RunGroupWebAp
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Release\net6.0\RunGroupWebApp.pdb
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Release\net6.0\RunGroupWebApp.genruntimeconfig.cache
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Release\net6.0\ref\RunGroupWebApp.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Release\net6.0\CloudinaryDotNet.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Release\net6.0\dotenv.net.dll
+E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Release\net6.0\Newtonsoft.Json.dll
