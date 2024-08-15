@@ -139,3 +139,6 @@ E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\dotenv.net.dll
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.genruntimeconfig.cache
 E:\WORK\NET\MVC\1 RunGroupWebApp\RunGroupWebApp\obj\Debug\net6.0\ref\RunGroupWebApp.dll
+D:\Work\ICONTraining\NET MVC 6\NETMVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\CloudinaryDotNet.dll
+D:\Work\ICONTraining\NET MVC 6\NETMVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\dotenv.net.dll
+D:\Work\ICONTraining\NET MVC 6\NETMVC\1 RunGroupWebApp\RunGroupWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll

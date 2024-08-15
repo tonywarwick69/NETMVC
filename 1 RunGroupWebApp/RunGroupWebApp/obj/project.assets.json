@@ -4960,24 +4960,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dduckhang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
+      "projectUniqueName": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
       "projectName": "RunGroupWebApp",
-      "projectPath": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\obj\\",
+      "projectPath": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\RunGroupWebApp.csproj",
+      "packagesPath": "C:\\Users\\dduckhang\\.nuget\\packages\\",
+      "outputPath": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dduckhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5043,6 +5038,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5051,7 +5064,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

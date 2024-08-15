@@ -6,7 +6,17 @@
 }
 <html>
     <body>
-        <h1>This is Race page</h1>
+    <div class="d-flex flex-row">
+        <div class="float-left">
+            <h1>This is Club page</h1>
+        </div>
+        <div class="float-right">
+            <a class="fa fa-plus" style="font-size:48px;color:green" asp-controller="race" asp-action="Create">
+
+            </a>
+        </div>
+
+    </div>
         <div class="album py-5 bg-light">
             <div class="container">
                 <div class="row">
@@ -22,7 +32,8 @@
                                         <div class="btn-group">
                                         <a type="btn btn-success" asp-controller="race" asp-action="Detail"
                                            asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">View</a>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                            <a asp-type="button" class="btn btn-sm btn-outline-secondary"
+                                            asp-controller="race" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
                                         </div>
                                         <small class="text-muted">@item.RaceCategory</small>
                                     </div>

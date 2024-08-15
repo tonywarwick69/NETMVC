@@ -14,7 +14,7 @@ namespace RunGroupWebApp.Controllers
         //public readonly ApplicationDBContext _context;
         public readonly IClubRepository _clubRepository;
         public readonly IPhotoService _photoService;
-        public ClubController( IClubRepository clubRepository, IPhotoService photoService)
+        public ClubController(IClubRepository clubRepository, IPhotoService photoService)
         {
             //_context = context;
             _clubRepository = clubRepository;
@@ -40,7 +40,7 @@ namespace RunGroupWebApp.Controllers
         public IActionResult Create()
         {
             //asp-for = label for and id of something
-            return View();  
+            return View();
         }
         [HttpPost]
         public async Task<IActionResult> Create(CreateClubDTO club)
@@ -61,13 +61,14 @@ namespace RunGroupWebApp.Controllers
                         Street = club.Address.Street,
                         City = club.Address.City,
                         State = club.Address.State,
-                    },                    
+                    },
                     Image = result.Url.ToString(),
 
                 };
                 _clubRepository.Add(savedClub);
                 return RedirectToAction("Index");
-            } else
+            }
+            else
             {
                 ModelState.AddModelError("", "Photo upload failed");
             }
@@ -81,33 +82,80 @@ namespace RunGroupWebApp.Controllers
             return View(clubDetails);
         }
         [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteClub(int id) {
+        public async Task<IActionResult> DeleteClub(int id)
+        {
             var foundClub = await _clubRepository.GetByIdAsync(id);
             if (foundClub != null)
             {
                 _clubRepository.Delete(foundClub);
                 return RedirectToAction("Index");
-            } else
+            }
+            else
             {
                 throw new Exception("Club " + id + " not found.");
             }
-            
+
         }
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
             var club = await _clubRepository.GetByIdAsync(id);
-            if(club == null) throw new Exception("Club " + id + " not found.");
-            var savedClub = new EditClubDTO { 
+            if (club == null) return View("Error");
+            var savedClub = new EditClubDTO
+            {
                 Title = club.Title,
                 Description = club.Description,
-                AddressId= club.AddressId,
+                AddressId = club.AddressId,
                 Address = club.Address,
-                ImageURL = club.Image,
+                URL = club.Image,
                 ClubCategory = club.ClubCategory,
 
             };
             return View(savedClub);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, EditClubDTO clubModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                ModelState.AddModelError("", "Failed to edit club");
+                return View("Edit", clubModel);
+            }
+            var userClub = await _clubRepository.GetByIdAsyncNoTracking(id);
+            if (userClub != null)
+            {
+                try
+                {
+                    if(clubModel.Image != null) 
+                        await _photoService.DeletePhotoAsync(userClub.Image);
+                    
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Could not delete photo");
+                    return View(clubModel);
+                }
+                var photoResult = await _photoService.AddPhotoAsync(clubModel.Image);
+                
+                var club = new Club
+                {
+                    Id = id,
+                    Title = clubModel.Title,
+                    Description = clubModel.Description,
+                    Image = photoResult.Url.ToString() != null ? photoResult.Url.ToString() : userClub.Image,
+                    AddressId = clubModel.AddressId,
+                    Address = clubModel.Address,
+                };
+                _clubRepository.Update(club);
+
+                return RedirectToAction("Index");
+            } else
+            {
+                return View(clubModel);
+            }
+      
+        }
+
     }
 }
