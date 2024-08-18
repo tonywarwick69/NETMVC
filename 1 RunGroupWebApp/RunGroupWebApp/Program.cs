@@ -11,6 +11,9 @@ using CloudinaryDotNet.Actions;
 using dotenv.net;
 using RunGroupWebApp.Helpers;
 using RunGroupWebApp.Services;
+using RunGroupWebApp.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 // Set your Cloudinary credentials
 //=================================
@@ -31,12 +34,22 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+//Declare the use of IdentityFramework
+builder.Services.AddIdentity<AppUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDBContext>();
+//Optimize memory cache
+builder.Services.AddMemoryCache();
+//Cookies authentication
+builder.Services.AddSession();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
 //Type "dotnet run seeddata" in PM console to insert data into DB
 var app = builder.Build();
 if (args.Length == 1 && args[0].ToLower() == "seeddata")
 {
     //
-    Seed.SeedData(app);
+    //Seed.SeedData(app);
+    await Seed.SeedUsersAndRolesAsync(app);
 }
 
 

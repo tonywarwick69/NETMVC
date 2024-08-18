@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using RunGroupWebApp.Models;
 using System.Security.Cryptography.X509Certificates;
 
 namespace RunGroupWebApp.Data
 {
-    public class ApplicationDBContext: DbContext
+    public class ApplicationDBContext: IdentityDbContext<AppUser>
     {//: base(options) to pass the DBContextOptions to the ApplicationDBContext 
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options): base(options)
         {

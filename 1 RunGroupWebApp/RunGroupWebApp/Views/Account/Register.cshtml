@@ -1,0 +1,50 @@
+﻿@using RunGroupWebApp.DTO
+@model RegisterDTO
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Register";
+
+}
+<div class="row">
+    <p>
+        <h4>Register new Run club account</h4>
+    </p>
+    @if (TempData["Error"] != null)
+    {
+        <div class="col-md-12 alert alret-danger">
+            <span><b>Sorry!</b> - @TempData["Error"]</span>
+        </div>
+    }
+    <div class="row">
+        <div class="col-md-8 offset-2">
+            <form asp-action="Register">
+                <div asp-asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input type="password" asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword" class="control-label"></label>
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+
+                    <input class="btn btn-outline-success float-right" type="submit" value="SIGN UP" />
+                    <a class="btn btn-outline-secondary" asp-asp-controller="Club" asp-action="Index">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <a asp-controller="Account" asp-action="Login" class="text-primary">Already have an account? Click here to login!</a>
+    </div>
+</div>
