@@ -15,4 +15,4 @@ Cloudinary keys will be saved through dotnet user-secret so to get Cloudninary k
 - dotnet user-secrets set "CloudinarySettings:CloudName" "YOURCloudName"
 - dotnet user-secrets set "CloudinarySettings:ApiKey" "YOURApiKey"
 - dotnet user-secrets set "CloudinarySettings:ApiSecret" "YOURApiSecret"
-- dotnet user-secrets set "DefaultConnection" "YourDBConnectionString"
+- dotnet user-secrets set "ConnectionStrings:DefaultConnection" "YourDBConnectionString"
