@@ -55,6 +55,37 @@ namespace RunGroupWebApp.Controllers
             var response = new RegisterDTO();
             return View(response);
         }
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterDTO registerModel)
+        {
+            if (!ModelState.IsValid) return View(registerModel);
+            var user = await _userManager.FindByEmailAsync(registerModel.Email);
+
+            if (user != null)
+            {
+                TempData["Error"] = "This email address is already in use";
+                return View(registerModel);
+            }
+            //if user doesn't already exist => create new user
+            var newUser = new AppUser()
+            {
+                Email = registerModel.Email,
+                UserName = registerModel.Email,
+
+            };
+             var newUserResponse = await _userManager.CreateAsync(newUser, registerModel.Password);
+            if (newUserResponse.Succeeded) {
+                await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+               
+            }
+            return RedirectToAction("Index", "Home");
+        }
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index","Home");
+        }
 
     }
 }
