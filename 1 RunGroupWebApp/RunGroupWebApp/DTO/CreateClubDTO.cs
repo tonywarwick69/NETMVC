@@ -11,5 +11,6 @@ namespace RunGroupWebApp.DTO
         public Address Address { get; set; }
         public IFormFile Image {  get; set; }
         public ClubCategory ClubCategory { get; set; }
+        public string AppUserID { get; set; }
     }
 }

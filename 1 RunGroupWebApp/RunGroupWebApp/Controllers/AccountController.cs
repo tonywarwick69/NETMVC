@@ -41,7 +41,7 @@ namespace RunGroupWebApp.Controllers
                 {
                     var result = await _signInManager.PasswordSignInAsync(user,loginModel.Password, false, false);
                     if (result.Succeeded) {
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Index", "Dashboard");
                     } 
                 }
                 TempData["Error"] = "Wrong credentials. Please, try again";

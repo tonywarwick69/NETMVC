@@ -14,11 +14,13 @@ namespace RunGroupWebApp.Controllers
         //public readonly ApplicationDBContext _context;
         public readonly IRaceRepository _raceRepository;
         public readonly IPhotoService _photoService;
-        public RaceController(IRaceRepository raceRepository, IPhotoService photoService)
+        public readonly IHttpContextAccessor _httpContextAccessor;
+        public RaceController(IRaceRepository raceRepository, IPhotoService photoService, IHttpContextAccessor httpContextAccessor)
         {
             //_context = context;
             _raceRepository = raceRepository;
             _photoService = photoService;
+            _httpContextAccessor = httpContextAccessor;
         }
         public async Task<IActionResult> Index()
         {
@@ -37,6 +39,11 @@ namespace RunGroupWebApp.Controllers
         public IActionResult Create()
         {
             //asp-for = label for and id of something
+            var curUserId = _httpContextAccessor.HttpContext.User.GetUserId();
+            var createClubDTO = new CreateClubDTO
+            {
+                AppUserID = curUserId,
+            };
             return View();
         }
 
@@ -49,6 +56,7 @@ namespace RunGroupWebApp.Controllers
                 {
                     Title = raceModel.Title,
                     Description = raceModel.Description,
+                    AppUserId = raceModel.AppUserID,
                     Address = new Address
                     {
                         Street = raceModel.Address.Street,

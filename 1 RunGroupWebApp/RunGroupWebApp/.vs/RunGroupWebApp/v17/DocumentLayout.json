@@ -1,74 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\",
+  "WorkspaceRootPath": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240819103228_AppUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240819103228_AppUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\userdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\racecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\racecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\repository\\racerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:repository\\racerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\repository\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:repository\\clubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\migrations\\20240816004652_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:migrations\\20240816004652_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\repository\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:repository\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\clubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\race\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\race\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\club\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\club\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\club\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\club\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\race\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\race\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\race\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\race\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\createracedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\createracedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\createclubdto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\createclubdto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\data\\enum\\clubcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:data\\enum\\clubcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\migrations\\20240816004652_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:migrations\\20240816004652_identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:data\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:models\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|d:\\work\\icontraining\\net mvc 6\\netmvc\\1 rungroupwebapp\\rungroupwebapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|e:\\work\\net\\mvc\\1 rungroupwebapp\\rungroupwebapp\\migrations\\20240819103228_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A42AA3D2-2ED4-4505-A0F1-48BBB8A72289}|RunGroupWebApp.csproj|solutionrelative:migrations\\20240819103228_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,41 +182,424 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\User\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Detail.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\User\\Detail.cshtml",
+              "RelativeToolTip": "Views\\User\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T15:12:21.356Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240819103228_AppUser.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240819103228_AppUser.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240819103228_AppUser.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240819103228_AppUser.cs",
-              "RelativeToolTip": "Migrations\\20240819103228_AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA1AAAA",
+              "Title": "UserDetailsDTO.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\UserDetailsDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDetailsDTO.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\UserDetailsDTO.cs",
+              "RelativeToolTip": "DTO\\UserDetailsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:32:28.631Z",
+              "WhenOpened": "2024-09-01T15:09:11.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T12:17:24.049Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T12:21:37.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RaceController.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\RaceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RaceController.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\RaceController.cs",
+              "RelativeToolTip": "Controllers\\RaceController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwDgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:36:57.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:36:52.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:55:17.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:23:28.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Seed.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\Seed.cs",
-              "RelativeDocumentMoniker": "Data\\Seed.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\Seed.cs",
-              "RelativeToolTip": "Data\\Seed.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAowJEAAABBAAAA",
+              "Title": "RaceRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\RaceRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\RaceRepository.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\RaceRepository.cs",
+              "RelativeToolTip": "Repository\\RaceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T03:04:31.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T14:37:44.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClubRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\ClubRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ClubRepository.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\ClubRepository.cs",
+              "RelativeToolTip": "Repository\\ClubRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T14:37:39.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T12:38:52.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBwAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T09:09:04.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T10:03:42.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\DashboardRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DashboardRepository.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Repository\\DashboardRepository.cs",
+              "RelativeToolTip": "Repository\\DashboardRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:31:08.697Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T05:42:35.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClubController.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\ClubController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClubController.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\ClubController.cs",
+              "RelativeToolTip": "Controllers\\ClubController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:03:36.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Race\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Race\\Create.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Race\\Create.cshtml",
+              "RelativeToolTip": "Views\\Race\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T09:40:51.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Race\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Race\\Index.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Race\\Index.cshtml",
+              "RelativeToolTip": "Views\\Race\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T05:21:54.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "ClaimsPrincipalExtensions.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "ClaimsPrincipalExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:59:05.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateRaceDTO.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\CreateRaceDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\CreateRaceDTO.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\CreateRaceDTO.cs",
+              "RelativeToolTip": "DTO\\CreateRaceDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:36:46.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateClubDTO.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\CreateClubDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\CreateClubDTO.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\CreateClubDTO.cs",
+              "RelativeToolTip": "DTO\\CreateClubDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:09:41.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Club\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Club\\Index.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Club\\Index.cshtml",
+              "RelativeToolTip": "Views\\Club\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T05:04:43.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Club\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Club\\Create.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Club\\Create.cshtml",
+              "RelativeToolTip": "Views\\Club\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T09:10:28.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Race\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Race\\Edit.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Race\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Race\\Edit.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T09:40:54.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClubCategory.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\Enum\\ClubCategory.cs",
+              "RelativeDocumentMoniker": "Data\\Enum\\ClubCategory.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\Enum\\ClubCategory.cs",
+              "RelativeToolTip": "Data\\Enum\\ClubCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T09:19:59.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T05:41:28.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IDashboardRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Interfaces\\IDashboardRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IDashboardRepository.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Interfaces\\IDashboardRepository.cs",
+              "RelativeToolTip": "Interfaces\\IDashboardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T15:26:46.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "DTO\\DashboardViewModel.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\DashboardViewModel.cs",
+              "RelativeToolTip": "DTO\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T15:35:26.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwB8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:22:43.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T05:29:07.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-16T00:49:34.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T04:53:13.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T00:17:43.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABoAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T14:48:13.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\RegisterDTO.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "DTO\\RegisterDTO.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\RegisterDTO.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\RegisterDTO.cs",
               "RelativeToolTip": "DTO\\RegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,114 +607,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAABoAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T14:48:13.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Models\\AppUser.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\AppUser.cs",
-              "RelativeToolTip": "Models\\AppUser.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBAAAAAtAAAA",
+              "DocumentIndex": 34,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\Seed.cs",
+              "RelativeDocumentMoniker": "Data\\Seed.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\Seed.cs",
+              "RelativeToolTip": "Data\\Seed.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAowJEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:17:43.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T03:04:31.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwCYAAABzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T09:09:04.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T04:53:13.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAiwE4AAAAPAAAA",
+              "DocumentIndex": 42,
+              "Title": "20240819103228_AppUser.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240819103228_AppUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819103228_AppUser.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240819103228_AppUser.cs",
+              "RelativeToolTip": "Migrations\\20240819103228_AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:22:43.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-19T10:32:28.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T10:03:42.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-16T00:49:34.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAswEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T04:23:28.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 35,
               "Title": "ApplicationDBContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\ApplicationDBContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDBContextModelSnapshot.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\ApplicationDBContextModelSnapshot.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\ApplicationDBContextModelSnapshot.cs",
               "RelativeToolTip": "Migrations\\ApplicationDBContextModelSnapshot.cs",
               "ViewState": "AQIAAHgBAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,11 +643,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 36,
               "Title": "20240816004652_Identity.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240816004652_Identity.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240816004652_Identity.cs",
               "RelativeDocumentMoniker": "Migrations\\20240816004652_Identity.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240816004652_Identity.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Migrations\\20240816004652_Identity.cs",
               "RelativeToolTip": "Migrations\\20240816004652_Identity.cs",
               "ViewState": "AQIAAMoAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -247,11 +655,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 38,
               "Title": "LoginDTO.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\LoginDTO.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "DTO\\LoginDTO.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\LoginDTO.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\DTO\\LoginDTO.cs",
               "RelativeToolTip": "DTO\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +667,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 39,
               "Title": "UserRoles.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\UserRoles.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\UserRoles.cs",
               "RelativeDocumentMoniker": "Data\\UserRoles.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\UserRoles.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\UserRoles.cs",
               "RelativeToolTip": "Data\\UserRoles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,11 +679,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 40,
               "Title": "Club.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\Club.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\Club.cs",
               "RelativeDocumentMoniker": "Models\\Club.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\Club.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Models\\Club.cs",
               "RelativeToolTip": "Models\\Club.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,11 +691,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 41,
               "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\ApplicationDBContext.cs",
+              "DocumentMoniker": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "D:\\Work\\ICONTraining\\NET MVC 6\\NETMVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "E:\\WORK\\NET\\MVC\\1 RunGroupWebApp\\RunGroupWebApp\\Data\\ApplicationDBContext.cs",
               "RelativeToolTip": "Data\\ApplicationDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

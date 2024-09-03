@@ -9,6 +9,7 @@ namespace RunGroupWebApp.DTO
         public string Description { get; set; }
         public IFormFile Image { get; set; }
         public RaceCategory RaceCategory { get; set; }
-        public Address Address { get; set; }    
+        public Address Address { get; set; }
+        public string AppUserID { get; set; }
     }
 }
